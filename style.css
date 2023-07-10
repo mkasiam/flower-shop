@@ -10,7 +10,6 @@ body {
 .sp-width {
     max-width: 1100px;
     margin: 0 auto;
-    border: 1 px solid black;
 }
 
 /* This is banner section styles  */
@@ -80,7 +79,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -174,9 +173,65 @@ body {
 .sp-color {
     color: #E55473;
 }
-.signup-btn{
+
+.signup-btn {
     margin-left: 130px;
     margin-top: 5px;
 }
 
-/*  This is instagram section */
+/*  This is instagram section style */
+
+
+
+/* This is promotion section  styles */
+
+.promo-container {
+    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.promo-container-text {
+    margin: 0 auto;
+
+
+}
+
+/* This is footer section style  */
+
+.footer-container {
+    background-color: #111010;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.footer-text-container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.footer-text-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.footer-discription {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.copyright-text{
+    font-size: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
