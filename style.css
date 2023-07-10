@@ -186,7 +186,7 @@ body {
 /* This is promotion section  styles */
 
 .promo-container {
-    background-image: url("/Flower Asset/Rectangle 9.png");
+    background-image: url("Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
