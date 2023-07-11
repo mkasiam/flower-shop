@@ -201,15 +201,24 @@ body {
     margin-top: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 
 }
 
 .promo-container-text {
     margin: 0 auto;
 
-
 }
-
+.subscribe-box{
+    margin-top: 20px;
+}
+.emailBox{
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    padding: 3px;
+    border: none;
+}
 /* This is footer section style  */
 
 .footer-container {
