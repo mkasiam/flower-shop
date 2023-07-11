@@ -6,33 +6,12 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+/* This is shared styles section  */
 
 .sp-width {
     max-width: 1100px;
     margin: 0 auto;
 }
-
-/* This is banner section styles  */
-.banner-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100vh;
-    background-color: rgba(229, 84, 115, 0.10);
-    ;
-}
-
-.banner-text-content {
-    width: 600px;
-}
-
-.banner-title {
-    color: #272727;
-    font-family: Lato;
-    font-size: 80px;
-    font-weight: 700;
-}
-
 .discription {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -46,10 +25,50 @@ body {
 .btn {
     padding: 10px 30px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     background: #E55473;
     font-size: 20px;
     color: white;
+}
+
+.Common-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.Common-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.sp-color {
+    color: #E55473;
+}
+
+/* This is banner section styles  */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner-text-content {
+    width: 600px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 700;
 }
 
 .banner-img {
@@ -59,26 +78,11 @@ body {
 
 /* This is Collection section styles  */
 
-.Collection-title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 80px;
-}
-
-.Collection-discription {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 15px;
-    font-weight: 400;
-}
-
 .box-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
@@ -121,11 +125,12 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 /* This is service section style  */
 
-.Our-service {
+.Our-service-container {
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
@@ -152,7 +157,7 @@ body {
     margin-top: 100px;
 }
 
-.deal-text-content {
+.deal-text-container {
     width: 500px;
 }
 
@@ -166,10 +171,6 @@ body {
 .deal-img {
     width: 220px;
     height: 300px;
-}
-
-.sp-color {
-    color: #E55473;
 }
 
 .signup-btn {
@@ -189,7 +190,7 @@ body {
     width: 260px;
     margin-top: 40px;
 }
-/* This is promotion section  styles */
+/* This is promotion & Subscribe section  styles */
 
 .promo-container {
     background-image: url("Flower Asset/Rectangle 9.png");
@@ -212,12 +213,14 @@ body {
 }
 .emailBox{
     width: 400px;
-    height: 35px;
+    height: 32px;
     font-size: 15px;
-    padding: 3px;
+    padding: 5px;
     border: none;
+    border-radius: 5px;
+    margin-right: 5px;
 }
-/* This is footer section style  */
+/* This is footer section styles  */
 
 .footer-container {
     background-color: #111010;
