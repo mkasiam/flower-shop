@@ -181,8 +181,16 @@ body {
 
 /*  This is instagram section style */
 
+.insta-img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
+}
+.insta-img{
+    width: 260px;
+    margin-top: 40px;
+}
 /* This is promotion section  styles */
 
 .promo-container {
