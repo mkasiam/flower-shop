@@ -130,7 +130,7 @@ body {
     display: flex;
     justify-content: space-around;
     border-radius: 8px;
-    background-color: rgba(39, 39, 39, 0.05);
+    background-color: rgba(39, 39, 39, 0.1);
     padding: 25px;
 }
 
@@ -148,7 +148,7 @@ body {
     gap: 100px;
     align-items: center;
     height: 50vh;
-    background: rgba(229, 84, 115, 0.05);
+    background-color: rgba(229, 84, 115, 0.1);
     margin-top: 100px;
 }
 
