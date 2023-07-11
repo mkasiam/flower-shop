@@ -72,7 +72,6 @@ body {
     text-align: center;
     font-size: 15px;
     font-weight: 400;
-    margin-top: 10px;
 }
 
 .box-container {
@@ -149,7 +148,6 @@ body {
     gap: 100px;
     align-items: center;
     height: 50vh;
-    border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 100px;
 }
