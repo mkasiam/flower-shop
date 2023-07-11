@@ -29,6 +29,7 @@ body {
     background: #E55473;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 
 .Common-title {
